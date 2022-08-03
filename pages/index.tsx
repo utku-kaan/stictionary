@@ -134,12 +134,18 @@ const Home: NextPage = () => {
                     <p className="text-sm text-gray-500">Mobile Apps</p>
                     <div className="flex items-center justify-center space-x-2">
                       <div className="relative h-8 w-8">
-                        <Image
-                          src={"/images/ios-store.svg"}
-                          layout="fill"
-                          draggable={false}
-                          alt=""
-                        />
+                        <a
+                          target="_blank"
+                          href="https://apps.apple.com/us/app/stictionary/id1613214660"
+                          rel="noreferrer"
+                        >
+                          <Image
+                            src={"/images/ios-store.svg"}
+                            layout="fill"
+                            draggable={false}
+                            alt=""
+                          />
+                        </a>
                       </div>
                       <div className="relative h-8 w-8">
                         <Image
@@ -417,12 +423,18 @@ const Home: NextPage = () => {
                 <p className="text-sm text-gray-500">Mobile Apps</p>
                 <div className="flex items-center justify-center space-x-2">
                   <div className="relative h-11 w-11">
-                    <Image
-                      src={"/images/ios-store.svg"}
-                      layout="fill"
-                      draggable={false}
-                      alt=""
-                    />
+                    <a
+                      target="_blank"
+                      href="https://apps.apple.com/us/app/stictionary/id1613214660"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        src={"/images/ios-store.svg"}
+                        layout="fill"
+                        draggable={false}
+                        alt=""
+                      />
+                    </a>
                   </div>
                   <div className="relative h-11 w-11">
                     <Image
@@ -487,12 +499,18 @@ const Home: NextPage = () => {
                 <p className="text-sm text-gray-500">Mobile Apps</p>
                 <div className="flex items-center justify-center space-x-2">
                   <div className="relative h-8 w-8">
-                    <Image
-                      src={"/images/ios-store.svg"}
-                      layout="fill"
-                      draggable={false}
-                      alt=""
-                    />
+                    <a
+                      target="_blank"
+                      href="https://apps.apple.com/us/app/stictionary/id1613214660"
+                      rel="noreferrer"
+                    >
+                      <Image
+                        src={"/images/ios-store.svg"}
+                        layout="fill"
+                        draggable={false}
+                        alt=""
+                      />
+                    </a>
                   </div>
                   <div className="relative h-8 w-8">
                     <Image
