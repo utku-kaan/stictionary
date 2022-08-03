@@ -23,7 +23,7 @@ const Home: NextPage = () => {
         </div>
       </header>
       <main className="px-4">
-        <h1 className="mt-8 text-center text-5xl text-slate-800">
+        <h1 className="mt-8 text-center text-5xl leading-tight text-slate-800">
           The dictionary that helps words{" "}
           <span className="relative inline-block">
             stick
@@ -384,14 +384,14 @@ const Home: NextPage = () => {
             </div>
           </div>
         </section>
-        <div className="-mx-4 mt-16 overflow-x-auto">
+        <div className="mx-auto mt-16 overflow-x-auto">
           <Image
             height={646}
             width={1195}
             layout="fixed"
             loading="lazy"
             src="/images/mobile-showcase.png"
-            className="mx-auto max-w-7xl"
+            className="max-w-7xl"
             alt=""
           />
         </div>
