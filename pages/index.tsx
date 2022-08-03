@@ -54,6 +54,7 @@ const Home: NextPage = () => {
                         src={"/images/tick.svg"}
                         layout="fill"
                         draggable={false}
+                        priority={true}
                         alt=""
                       />
                     </div>
@@ -158,7 +159,7 @@ const Home: NextPage = () => {
                 alt=""
                 className="rounded-2xl"
               />
-              <div className="grid content-center justify-center py-8">
+              <div className="grid h-full content-center justify-center">
                 <Image
                   src={"/images/search-feature.png"}
                   height={336}
@@ -434,12 +435,6 @@ const Home: NextPage = () => {
           </div>
         </section>
         <div className="-mx-4 mt-16 overflow-auto text-center lg:-mx-8 lg:mt-32">
-          {/* <img
-            style={{ aspectRatio: "5316 / 2776" }}
-            loading="lazy"
-            src="/images/mobile-showcase.png"
-            className="mx-auto max-w-7xl"
-          /> */}
           <Image
             layout="fixed"
             width={1280}
