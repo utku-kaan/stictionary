@@ -13,7 +13,6 @@ body {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  user-select: none;
   padding: 0;
   margin: 0;
 }
